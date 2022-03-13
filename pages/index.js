@@ -45,7 +45,7 @@ return (
           <button className={styles.buttonwatch}>{l.trailer}</button>
         </div>
       </div>
-      <iframe className={styles.info} src="https://store.steampowered.com/widget/1583320/" frameBorder="0" height="200"></iframe>
+      <iframe className={styles.info} src="https://store.steampowered.com/widget/1583320/" height="200"></iframe>
     </div>
     <div className={styles.content}>
       <div className={styles.container1}>
