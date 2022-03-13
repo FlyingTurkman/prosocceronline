@@ -27,6 +27,17 @@ const en ={
     createteam:"Create Team",
     editteam:"Customize Team",
     joinleague:"Join A League",
-    becomestar:"Become A Star"
+    becomestar:"Become A Star",
+    signup:"Sign Up",
+    email:"E-mail",
+    password:"Password",
+    repassword:"Re-Password",
+    namesurname:"Name-Surname",
+    mainposition:"Main Position",
+    secondposition:"Second Position",
+    username:"Username",
+    unat:"Username Already Taken",
+    usc:"User Succesfuly Created",
+    fmp:"Forgot My Password"
 }
 export default en;

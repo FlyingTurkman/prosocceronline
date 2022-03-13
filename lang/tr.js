@@ -27,6 +27,17 @@ const tr ={
     createteam:"Takım Oluştur",
     editteam:"Takımını Düzenle",
     joinleague:"Bir Lige Katıl",
-    becomestar:"Yıldız Ol"
+    becomestar:"Yıldız Ol",
+    signup:"Üye Ol",
+    email:"E-posta",
+    password:"Şifre",
+    repassword:"Şifre Tekrarı",
+    namesurname:"Ad-Soyad",
+    mainposition:"Ana Pozisyon",
+    secondposition:"Yan Pozisyon",
+    username:"Kullanıcı Adı",
+    unat:"Bu Kullanıcı Adı Çoktan Alınmış",
+    usc:"Kullanıcı Başarıyla Oluşturuldu",
+    fmp:"Şifremi Unuttum"
 }
 export default tr;

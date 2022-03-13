@@ -1,0 +1,44 @@
+.content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    background:rgba(255, 255, 255, .6);
+    padding: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    border-bottom:1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.logo{
+    height: 75px;
+    object-fit: contain;
+    object-position: center;
+}
+.h1{
+    font-size: large;
+    text-align: center;
+}
+.h2{
+    font-size: medium;
+    text-align: center;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pos{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

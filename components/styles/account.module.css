@@ -1,0 +1,109 @@
+.content{
+    width: calc(90% - 20px);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    display: flex;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 5px 10px -1px black;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.content2{
+    width: calc(90% - 20px);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    display: flex;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0px 5px 10px -1px black;
+    position: relative;
+    flex-direction: column;
+}
+.container{
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1;
+}
+.img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    object-position: center;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    display: flex;
+}
+
+.img3{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+    display: flex;
+    cursor: pointer;
+    transition: .5s;
+}
+.img3:hover{
+    transform: rotateZ(-180deg);
+    transition: .5s;
+}
+.h3{
+    font-size: 1rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-indent: 20px;
+    display: flex;
+    cursor: default;
+}
+.h2{
+    font-size: xx-large;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;}
+.pos{
+    width: 160px;
+    height: 160px;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 160px;
+    font-size: 80px;
+    cursor: default;
+}
+.pos2{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: default;
+}
+.sec{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
