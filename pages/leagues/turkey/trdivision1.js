@@ -70,7 +70,7 @@ export default function TRDivision1(){
                     {point.map((p)=>{
                         var i = point.findIndex(x=>x.team===p.team)
                         return(
-                            <div className={styles.row} key={i}>
+                            <div className={styles.row} key={i+"tables"}>
                                 <div className={styles.col}>
                                     <h3 className={styles.h444}>{i+1}</h3>
                                 </div>
@@ -123,7 +123,7 @@ export default function TRDivision1(){
                     {goals.map((g)=>{
                         var i =goals.findIndex(x=>x.name===g.name);
                         return(
-                            <div className={styles.row} key={i}>
+                            <div className={styles.row} key={i+"goals"}>
                                 <div className={styles.col}>
                                     <h3 className={styles.h444}>{i+1}</h3>
                                 </div>
@@ -155,7 +155,7 @@ export default function TRDivision1(){
                     {assists.map((g)=>{
                         var i =assists.findIndex(x=>x.name===g.name);
                         return(
-                            <div className={styles.row} key={i}>
+                            <div className={styles.row} key={i+"assists"}>
                                 <div className={styles.col}>
                                     <h3 className={styles.h444}>{i+1}</h3>
                                 </div>
@@ -187,7 +187,7 @@ export default function TRDivision1(){
                     {saves.map((g)=>{
                         var i =saves.findIndex(x=>x.name===g.name);
                         return(
-                            <div className={styles.row} key={i}>
+                            <div className={styles.row} key={i+"saves"}>
                                 <div className={styles.col}>
                                     <h3 className={styles.h444}>{i+1}</h3>
                                 </div>
@@ -224,7 +224,7 @@ export default function TRDivision1(){
                     </div>
                     {schedule.map((s)=>{
                         return(
-                            <div className={styles.row} key={i}>
+                            <div className={styles.row} key={s.home+s.away}>
                                 <div className={styles.colname2}>
                                     <h3 className={styles.h444}>{s.home}</h3>
                                 </div>
