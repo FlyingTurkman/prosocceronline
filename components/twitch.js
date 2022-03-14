@@ -17,7 +17,7 @@ export default function Twitch(){
             </div>
             <div className={styles.body}>
                 <iframe
-                    src="https://player.twitch.tv/?channel=leeblebici&parent=localhost&autoplay=false"
+                    src="https://player.twitch.tv/?channel=leeblebici&parent=https://prosocceronline.vercel.app&autoplay=false"
                     frameBorder="0"
                     scrolling="no"
                     allowFullScreen="true"
