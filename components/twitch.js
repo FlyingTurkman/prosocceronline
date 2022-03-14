@@ -18,9 +18,9 @@ export default function Twitch(){
             <div className={styles.body}>
                 <iframe
                     src="https://player.twitch.tv/?channel=leeblebici&parent=localhost&autoplay=false"
-                    frameborder="0"
+                    frameBorder="0"
                     scrolling="no"
-                    allowfullscreen="true"
+                    allowFullScreen="true"
                     height="100%"
                     width="100%">
                 </iframe>
