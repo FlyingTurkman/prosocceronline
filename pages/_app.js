@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Menu from '../components/menu';
+import Menu2 from '../components/menu2';
 import cookies from 'js-cookie';
 
 
@@ -9,7 +10,7 @@ const log =cookies.get("login")||"false";
 function MyApp({ Component, pageProps }) {
   return (
   <body>
-    <Menu lang={lang} log={log}></Menu>
+    <Menu2 lang={lang} log={log}></Menu2>
     <Component {...pageProps} />
   </body>
 
