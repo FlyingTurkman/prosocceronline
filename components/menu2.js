@@ -8,6 +8,23 @@ export default function Menu2({lang, log}){
             </div>
             <div className={styles.menubtn}>
                 <img className={styles.icon} src="/icons/menu/hub.svg"></img>
+                <div className={styles.submenu}>
+                    <div className={styles.subbtn2}>
+                        Community
+                    </div>
+                    <div className={styles.subbtn} onClick={()=>{window.location.href="/leagues"}}>
+                        Leagues
+                    </div>
+                    <div className={styles.subbtn}>
+                        Teams
+                    </div>
+                    <div className={styles.subbtn} onClick={()=>{window.location.href="/players"}}>
+                        Players
+                    </div>
+                    <div className={styles.subbtn}>
+                        Discords
+                    </div>
+                </div>
             </div>
             <div className={styles.menubtn}>
                 <img className={styles.icon} src="/icons/menu/profile.svg"></img>
