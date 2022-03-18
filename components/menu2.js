@@ -15,7 +15,7 @@ export default function Menu2({lang, log}){
                     <div className={styles.subbtn} onClick={()=>{window.location.href="/leagues"}}>
                         Leagues
                     </div>
-                    <div className={styles.subbtn}>
+                    <div className={styles.subbtn} onClick={()=>{window.location.href="/teams"}}>
                         Teams
                     </div>
                     <div className={styles.subbtn} onClick={()=>{window.location.href="/players"}}>
