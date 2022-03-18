@@ -102,9 +102,11 @@
     min-width: 300px;
     flex-direction: row;
     height: 100%;
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .card{
     width: 100px;
