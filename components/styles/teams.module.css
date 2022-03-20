@@ -13,6 +13,26 @@
     align-items: flex-start;
     transition: .3s;
 }
+.content2{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: .3s;
+}
+.content2:hover{
+    background-color: white;
+    transition: .3s;
+}
 .left{
     width: 150px;
     height: 100%;
@@ -24,6 +44,7 @@
     position: relative;
     display: flex;
     perspective: 400px;
+    cursor:pointer
 }
 .logo:hover .front{
     transform: rotateY(-180deg);
@@ -77,6 +98,9 @@
     top: 25%;
     left: 25%;
     border-radius: 50%;
+}
+.view{
+    width: 100%;
 }
 .right{
     min-height: 200px;
@@ -144,4 +168,77 @@
     cursor: default;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.roaster{
+    min-width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.playername{
+    width: 100%;
+    text-align: center;
+    cursor: default;
+    margin: 5px;
+}
+.playerrow{
+    display: flex;
+    min-width: 300px;
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    border:1px black solid;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+.h2{
+    margin: auto;
+    display: flex;
+    flex: 1;
+}
+.h3{
+    font-size: 16px;
+    flex: 1;
+    font-weight: normal;
+    text-indent: 20px;
+    cursor: default;
+    text-align: center;
+}
+.icon{
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.icon:hover{
+    transform: rotateZ(-180deg);
+    transition: .5s;
+}
+.posicon, .posicongk, .posiconsub{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    color: white;
+}
+.posicongk{
+    background-color: darkred;
+}
+.posiconsub{
+    background-color: orangered;
+}
+.select{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.option{
+    height: 40px;
+    border-radius: 40px;
 }

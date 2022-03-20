@@ -5,7 +5,7 @@ export default function Teams (){
         <div className="main">
             <div className={styles.content}>
                 <div className={styles.left}>
-                    <div className={styles.logo}>
+                    <div className={styles.logo} onClick={()=>{window.location.href="teams/lasisx"}}>
                         <div className={styles.front}>
                             <img className={styles.imglogo} src="/lasisx.png" ></img>
                         </div>
@@ -33,7 +33,7 @@ export default function Teams (){
                                 <img className={styles.cupimg} src="/icons/cup1.png"></img>
                             </div>
                             <div className={styles.title}>
-                                Europe Winter League 2022
+                                Winter League 2022
                             </div>
                         </div>
                         <div className={styles.card}>
@@ -67,6 +67,38 @@ export default function Teams (){
                             <div className={styles.title}>
                                 Turkish 1st Division 2020
                             </div>
+                        </div>
+                    </div>
+                    <div className={styles.roaster}>
+                        <div className={styles.playername}>
+                            <b>Players</b>
+                        </div>
+                        <div className={styles.playername}>
+                            Alper
+                        </div>
+                        <div className={styles.playername}>
+                            Vali
+                        </div>
+                        <div className={styles.playername}>
+                            Darkseeker
+                        </div>
+                        <div className={styles.playername}>
+                            Opel Astra
+                        </div>
+                        <div className={styles.playername}>
+                            Recarmon
+                        </div>
+                        <div className={styles.playername}>
+                            Geralt
+                        </div>
+                        <div className={styles.playername}>
+                            KafirZeus
+                        </div>
+                        <div className={styles.playername}>
+                            AdamC
+                        </div>
+                        <div className={styles.playername}>
+                            Sharkman
                         </div>
                     </div>
                 </div>
