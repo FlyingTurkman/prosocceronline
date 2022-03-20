@@ -136,7 +136,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option className={styles.option}>
+                                <option key={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -151,7 +151,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -166,7 +166,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -181,7 +181,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -196,7 +196,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -211,7 +211,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -226,7 +226,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -241,7 +241,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -256,7 +256,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
@@ -271,7 +271,7 @@ export default function Team({team}){
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
-                                <option value={l.name} className={styles.option}>
+                                <option key={l.name} value={l.name} className={styles.option}>
                                     {l.name}
                                 </option>
                             )
