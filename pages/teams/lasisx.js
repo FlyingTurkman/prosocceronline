@@ -10,7 +10,8 @@ const list =[
     {name:"Sharkman"},
     {name:"Geralt"},
     {name:"KafirZeus"},
-    {name:"AdamC"}
+    {name:"AdamC"},
+    {name:"Beckenbauer"}
 ]
 
 export default function Team({team}){
@@ -252,6 +253,21 @@ export default function Team({team}){
                         S2
                     </div>
                     <select className={styles.select} defaultValue="AdamC">
+                        <option className={styles.option}>Select Player</option>
+                        {list.map((l)=>{
+                            return(
+                                <option value={l.name} className={styles.option}>
+                                    {l.name}
+                                </option>
+                            )
+                        })}
+                    </select>
+                </div>
+                <div className={styles.playerrow}>
+                    <div className={styles.posiconsub}>
+                        S3
+                    </div>
+                    <select className={styles.select} defaultValue="Beckenbauer">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
