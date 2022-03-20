@@ -131,7 +131,7 @@ export default function Team({team}){
                     <div className={styles.posicongk}>
                         GK
                     </div>
-                    <select className={styles.select} value="Alper">
+                    <select className={styles.select} defaultValue="Alper" >
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -146,7 +146,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         LB
                     </div>
-                    <select className={styles.select} value="Vali">
+                    <select className={styles.select} defaultValue="Vali">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -161,7 +161,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         CB
                     </div>
-                    <select className={styles.select} value="DarkSeeker">
+                    <select className={styles.select} defaultValue="DarkSeeker">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -176,7 +176,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         RB
                     </div>
-                    <select className={styles.select} value="Opel Astra">
+                    <select className={styles.select} defaultValue="Opel Astra">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -191,7 +191,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         CM
                     </div>
-                    <select className={styles.select} value="Recarmon">
+                    <select className={styles.select} defaultValue="Recarmon">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -206,7 +206,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         LW
                     </div>
-                    <select className={styles.select} value="Geralt">
+                    <select className={styles.select} defaultValue="Geralt">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -221,7 +221,7 @@ export default function Team({team}){
                     <div className={styles.posicon}>
                         RW
                     </div>
-                    <select className={styles.select} value="KafirZeus">
+                    <select className={styles.select} defaultValue="KafirZeus">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -236,7 +236,7 @@ export default function Team({team}){
                     <div className={styles.posiconsub}>
                         S1
                     </div>
-                    <select className={styles.select} value="Sharkman">
+                    <select className={styles.select} defaultValue="Sharkman">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
@@ -251,7 +251,7 @@ export default function Team({team}){
                     <div className={styles.posiconsub}>
                         S2
                     </div>
-                    <select className={styles.select} value="AdamC">
+                    <select className={styles.select} defaultValue="AdamC">
                         <option className={styles.option}>Select Player</option>
                         {list.map((l)=>{
                             return(
