@@ -1,5 +1,5 @@
-import styles from '../../components/styles/teams.module.css'
-import Pos7 from '../../components/pos7'
+import styles from '../../../components/styles/teams.module.css'
+import Pos7 from '../../../components/pos7'
 
 const list =[
     {name:"Alper"},
