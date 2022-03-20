@@ -268,7 +268,7 @@ export default function Team({team}){
 }
 export async function getStaticPaths(){
     return{
-        paths:[{params:{team:"lasisx"}}],
+        paths:[{params:{}}],
         fallback:true
     }
 }
