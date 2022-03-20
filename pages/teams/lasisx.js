@@ -266,16 +266,3 @@ export default function Team({team}){
         </div>
     )
 }
-export async function getStaticPaths(){
-    return{
-        paths:[{params:{}}],
-        fallback:true
-    }
-}
-export async function getStaticProps(context){
-    const {params}=context
-    const team=params.team
-    return{
-        props:{team}
-    }
-}
