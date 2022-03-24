@@ -1,0 +1,31 @@
+{
+  "name": "prosocceronline",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "country-flag-icons": "^1.4.21",
+    "date-fns": "^2.28.0",
+    "firebase": "^9.6.7",
+    "js-cookie": "^3.0.1",
+    "next": "12.1.0",
+    "node-steam-openid": "^1.0.1",
+    "openid": "^2.0.10",
+    "passport": "^0.5.2",
+    "passport-steam": "^1.0.17",
+    "react": "17.0.2",
+    "react-country-region-selector": "^3.4.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.40",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "typescript": "^4.6.2"
+  }
+}

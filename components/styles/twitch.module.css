@@ -1,0 +1,95 @@
+.content{
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: column;
+    position: relative;
+}
+.content:hover .head{
+    opacity: 1;
+    height: 100px;
+    transition: .5s;
+}
+.head{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .6);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.icon{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+}
+.icon2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+.header{
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+.h2{
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: normal;
+    color: black;
+}
+.body{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 600px;
+}
+.iframe{
+    width: auto;
+    margin: auto;
+    display: flex;
+}

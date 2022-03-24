@@ -1,0 +1,274 @@
+.content{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: blur(2px);
+    transition: .3s;
+}
+.content2{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    transition: .3s;
+}
+.content2:hover{
+    backdrop-filter: blur(10px);
+    transition: .3s;
+}
+.content3{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 5%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    backdrop-filter: blur(2px);
+    transition: .3s;
+}
+.content3:hover{
+    backdrop-filter: blur(10px);
+    transition: .3s;
+}
+.left{
+    width: 150px;
+    height: 100%;
+    display: flex;
+}
+.logo{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    perspective: 400px;
+    cursor:pointer
+}
+.logo:hover .front{
+    transform: rotateY(-180deg);
+    transition: .3s;
+}
+.logo:hover .back{
+    transform: rotateY(0deg);
+    transition: .3s;
+}
+.front, .back{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    backface-visibility: hidden;
+    perspective: 400px;
+    box-shadow: 0px 20px 20px -3px ;
+}
+.front{
+    transform: rotateY(0deg);
+    transition: .3s;
+}
+.back{
+    transform: rotateY(180deg);
+    transition: .3s;
+}
+.imglogo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+.color1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.color2{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+}
+.view{
+    width: 100%;
+}
+.right{
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: large;
+    cursor: default;
+}
+.trophy{
+    min-width: 300px;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    flex-direction: column;
+    border-bottom:5px black solid ;
+    padding: 3px;
+    transition: .3s;
+}
+.card:hover{
+    transform: rotateX(10deg);
+    box-shadow: 0px 10px 10px 1px black;
+    transition: .3s;
+}
+.imgcup{
+    width: 100px;
+    height: 100px;
+}
+.cupimg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.pos{
+    display: flex;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    cursor: default;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.roaster{
+    min-width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.playername{
+    width: 100%;
+    text-align: center;
+    cursor: default;
+    margin: 5px;
+}
+.playerrow{
+    display: flex;
+    min-width: 300px;
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    border:1px black solid;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+.h2{
+    margin: auto;
+    display: flex;
+    flex: 1;
+}
+.h3{
+    font-size: 16px;
+    flex: 1;
+    font-weight: normal;
+    text-indent: 20px;
+    cursor: default;
+    text-align: center;
+}
+.icon{
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.icon:hover{
+    transform: rotateZ(-180deg);
+    transition: .5s;
+}
+.posicon, .posicongk, .posiconsub{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    color: white;
+}
+.posicongk{
+    background-color: darkred;
+}
+.posiconsub{
+    background-color: orangered;
+}
+.select{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.option{
+    height: 40px;
+    border-radius: 40px;
+}
+.possec{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

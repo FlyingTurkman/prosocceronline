@@ -1,0 +1,96 @@
+.ustmenu{
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: flex-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.ustmenu:hover{
+    transition: .5s;
+    background-color: black;
+}
+.menubtn{
+    height: 100%;
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    line-height: 45px;
+    padding: 5px;
+    border-bottom:5px transparent solid;
+    transition: .5s;
+    color: #004bd9;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+}
+.menubtn:hover{
+    border-bottom:5px #004bd9 solid;
+    transition: .5s;
+}
+.icon{
+    margin: 3px;
+    height: 100%;
+}
+.menubtn:hover .submenu{
+    display: flex;
+}
+.submenu{
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: calc(100% - 10px);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.submenu:hover{
+    background-color: black;
+    transition: .5s;
+}
+.subbtn{
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: .5s;
+    color: #004bd9;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.subbtn2{
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: .5s;
+    color: #004bd9;
+    border-bottom: 2px #004bd9 solid;
+}
+.subbtn:hover{
+    color: white;
+    background-color: #004bd9;
+    transition: .5s;
+}

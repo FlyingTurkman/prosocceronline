@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: lightsteelblue;
+  overflow: auto;
+  min-height: 100%;
+  height: 100%;
+  background-image: url('/img/stadium.png');
+}
+body>div{
+  height: 100%;
+}
+.main{
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+input{
+  background-color: transparent;
+  border:0;
+}
+input:focus {
+  outline: none;
+}
+input:hover{
+  outline:none;
+}
+input::placeholder{
+  color: #333;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button{
+  border:0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+.div{
+  cursor: default;
+}
+select{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select:hover{
+  outline: none;
+}
