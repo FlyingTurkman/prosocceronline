@@ -9,6 +9,8 @@ body {
   min-height: 100%;
   height: 100%;
   background-image: url('/img/stadium.png');
+  background-size: cover;
+  background-position: center;
 }
 body>div{
   height: 100%;
@@ -48,7 +50,7 @@ button{
   background-color: #1a1a1a;
   cursor: pointer;
 }
-.div{
+div{
   cursor: default;
 }
 select{
@@ -61,4 +63,25 @@ select{
 }
 select:hover{
   outline: none;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #004bd9;
+  border-radius: 8px;
+}
+a{
+  text-decoration: none;
+  color: #004bd9;
+}
+.content1{
+  margin: auto;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
