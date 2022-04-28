@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import Menu from '../components/menu';
 import Menu2 from '../components/menu2';
 import Menu3 from '../components/menu3';
+import Footer from '../components/footer';
 import cookies from 'js-cookie';
 import Head from 'next/head';
 
@@ -14,10 +15,9 @@ function MyApp({ Component, pageProps }) {
     <Head>
       <meta name='viewport' content='width=device-width, initial-scale=1.0'></meta>
     </Head>
-    <body>
       <Menu3 lang={lang} log={log}></Menu3>
       <Component {...pageProps} />
-    </body>
+      <Footer></Footer>
     </>
 
 

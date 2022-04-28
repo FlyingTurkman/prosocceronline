@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+}
+
 html,
 body {
   padding: 0;
@@ -5,12 +13,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: lightsteelblue;
-  overflow: auto;
   min-height: 100%;
   height: 100%;
   background-image: url('/img/stadium.png');
   background-size: cover;
   background-position: center;
+  overflow: auto;
 }
 body>div{
   height: 100%;
@@ -83,5 +91,14 @@ a{
   width: 100%;
   align-self: center;
   display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scroll-snap-type: mandatory;
+}
+.content{
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
